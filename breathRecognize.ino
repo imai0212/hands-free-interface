@@ -4,9 +4,9 @@
 #include <Adafruit_MLX90614.h>
 
 const char* ssid = "Buffalo-88C0";//WiFiアクセスポイントのSSID
-const char* password = "i4dvkr56p36bu";//WiFiアクセスポイントのパスワード
+const char* password = "";//WiFiアクセスポイントのパスワード
 //const char* ssid = "misaki-lab-g";
-//const char* password = "0000000142";
+//const char* password = "";
 const char* client_address = "192.168.11.11";//送信相手のPCのIP
 const int client_port = 22222;  //送り先のポート番号
 const int server_port = 22224;  //ESP32のポート番号
